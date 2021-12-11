@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+/* 200 
+500 
+
+rosa:    #FC086A;
+naranja: #FD4D07;
+verde:  #02BC3D; */
+
+
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: flex;    
+    font-weight: 200;    
+    background-image: url(./img/bg.jpg);    
+    background-size: cover; 
+    align-content: center;    
+    align-items: center;    
+    justify-content: center;
+    }
+    
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+}
+
+.card {
+    width: 316px;
+    background-color: white;
+    border-radius: 7px;
+    height: 476px;
+    text-align: center;
+    box-shadow: 9px 4px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 4px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 4px 12px 0px rgba(0,0,0,0.75);
+}
+
+.image { 
+    background-size: 100%;
+    width: 100%;
+    height: 220px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.rosa .image {
+    background-image:url(./img/1.jpg);    
+}
+.naranja .image {
+    background-image: url(./img/2.jpg);
+}
+
+.verde .image {
+    background-image: url(./img/3.jpg);
+}
+
+span {  
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.rosa span {
+    color: #FC086A; 
+}
+.naranja span {
+    color: #FD4D07;
+}
+
+.verde span {
+    color:#02BC3D; 
+}
+
+.card h1 {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.text {
+    margin: 0.225em 0 2.225em 0;
+}
+
+.paragraph{
+    font-size: 0.95em;
+    margin: 15px 16px;
+}
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 0.8em;
+    /* height: 81px; */
+    /* padding-top: 24px; */
+}
+.col h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.row:nth-child(2) {
+border-left: rgba(0, 0, 0, 0.418) 1px solid;
+border-right: rgba(0, 0, 0, 0.418) 1px solid;
+}
+
+
+.row {
+    padding: 1.5em;
+}
+.row p {
+    display: inline-block;
+}
+.rosa .col {
+    background-color: #FC086A;  ;
+}
+
+.naranja .col {
+    background-color: #FD4D07; }
+
+.verde .col {
+        background-color: #02BC3D; 
+    }
+
+
+    .card:hover {
+        transform: scale(1.1);
+    }
