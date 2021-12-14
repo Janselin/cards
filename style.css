@@ -136,9 +136,9 @@ border-right: rgba(0, 0, 0, 0.418) 1px solid;
     background-color: #02BC3D; 
     }
 
-/* .card:hover {
+.card:hover {
      transform: scale(1.1);
-    }  */
+    } 
 
 
 
